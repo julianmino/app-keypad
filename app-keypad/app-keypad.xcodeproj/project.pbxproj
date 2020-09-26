@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		362DE9F8251EF9E8000462B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DE9F7251EF9E8000462B9 /* AppDelegate.swift */; };
-		362DE9FA251EF9E8000462B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DE9F9251EF9E8000462B9 /* ViewController.swift */; };
+		362DE9FA251EF9E8000462B9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DE9F9251EF9E8000462B9 /* MainVC.swift */; };
 		362DE9FD251EF9E8000462B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362DE9FB251EF9E8000462B9 /* Main.storyboard */; };
 		362DE9FF251EF9EB000462B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362DE9FE251EF9EB000462B9 /* Assets.xcassets */; };
 		362DEA02251EF9EB000462B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362DEA00251EF9EB000462B9 /* LaunchScreen.storyboard */; };
 		362DEA0D251EF9EB000462B9 /* app_keypadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA0C251EF9EB000462B9 /* app_keypadTests.swift */; };
+		362DEA1C251EFD93000462B9 /* ColorHackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA1B251EFD93000462B9 /* ColorHackVC.swift */; };
+		362DEA1E251EFE3C000462B9 /* NumbersHackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA1D251EFE3C000462B9 /* NumbersHackVC.swift */; };
+		362DEA20251EFE7B000462B9 /* StringsHackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA1F251EFE7B000462B9 /* StringsHackVC.swift */; };
+		362DEA22251EFF18000462B9 /* AnimationHackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA21251EFF18000462B9 /* AnimationHackVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +32,7 @@
 /* Begin PBXFileReference section */
 		362DE9F4251EF9E8000462B9 /* app-keypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-keypad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		362DE9F7251EF9E8000462B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		362DE9F9251EF9E8000462B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		362DE9F9251EF9E8000462B9 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		362DE9FC251EF9E8000462B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		362DE9FE251EF9EB000462B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		362DEA01251EF9EB000462B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +40,10 @@
 		362DEA08251EF9EB000462B9 /* app-keypadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app-keypadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		362DEA0C251EF9EB000462B9 /* app_keypadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_keypadTests.swift; sourceTree = "<group>"; };
 		362DEA0E251EF9EB000462B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362DEA1B251EFD93000462B9 /* ColorHackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHackVC.swift; sourceTree = "<group>"; };
+		362DEA1D251EFE3C000462B9 /* NumbersHackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersHackVC.swift; sourceTree = "<group>"; };
+		362DEA1F251EFE7B000462B9 /* StringsHackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsHackVC.swift; sourceTree = "<group>"; };
+		362DEA21251EFF18000462B9 /* AnimationHackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHackVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +123,11 @@
 		362DEA1A251EFA40000462B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				362DE9F9251EF9E8000462B9 /* ViewController.swift */,
+				362DE9F9251EF9E8000462B9 /* MainVC.swift */,
+				362DEA1B251EFD93000462B9 /* ColorHackVC.swift */,
+				362DEA1D251EFE3C000462B9 /* NumbersHackVC.swift */,
+				362DEA1F251EFE7B000462B9 /* StringsHackVC.swift */,
+				362DEA21251EFF18000462B9 /* AnimationHackVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -221,7 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				362DE9FA251EF9E8000462B9 /* ViewController.swift in Sources */,
+				362DEA1C251EFD93000462B9 /* ColorHackVC.swift in Sources */,
+				362DEA20251EFE7B000462B9 /* StringsHackVC.swift in Sources */,
+				362DE9FA251EF9E8000462B9 /* MainVC.swift in Sources */,
+				362DEA1E251EFE3C000462B9 /* NumbersHackVC.swift in Sources */,
+				362DEA22251EFF18000462B9 /* AnimationHackVC.swift in Sources */,
 				362DE9F8251EF9E8000462B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

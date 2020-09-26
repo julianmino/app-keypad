@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		362DE9F8251EF9E8000462B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DE9F7251EF9E8000462B9 /* AppDelegate.swift */; };
+		362DE9FA251EF9E8000462B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DE9F9251EF9E8000462B9 /* ViewController.swift */; };
+		362DE9FD251EF9E8000462B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362DE9FB251EF9E8000462B9 /* Main.storyboard */; };
+		362DE9FF251EF9EB000462B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362DE9FE251EF9EB000462B9 /* Assets.xcassets */; };
+		362DEA02251EF9EB000462B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362DEA00251EF9EB000462B9 /* LaunchScreen.storyboard */; };
+		362DEA0D251EF9EB000462B9 /* app_keypadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA0C251EF9EB000462B9 /* app_keypadTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		362DEA09251EF9EB000462B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 362DE9EC251EF9E8000462B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 362DE9F3251EF9E8000462B9;
+			remoteInfo = "app-keypad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		362DE9F4251EF9E8000462B9 /* app-keypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-keypad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		362DE9F7251EF9E8000462B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		362DE9F9251EF9E8000462B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		362DE9FC251EF9E8000462B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		362DE9FE251EF9EB000462B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		362DEA01251EF9EB000462B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		362DEA03251EF9EB000462B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362DEA08251EF9EB000462B9 /* app-keypadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app-keypadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		362DEA0C251EF9EB000462B9 /* app_keypadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_keypadTests.swift; sourceTree = "<group>"; };
+		362DEA0E251EF9EB000462B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		362DE9F1251EF9E8000462B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362DEA05251EF9EB000462B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		362DE9EB251EF9E8000462B9 = {
+			isa = PBXGroup;
+			children = (
+				362DE9F6251EF9E8000462B9 /* app-keypad */,
+				362DEA0B251EF9EB000462B9 /* app-keypadTests */,
+				362DE9F5251EF9E8000462B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		362DE9F5251EF9E8000462B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				362DE9F4251EF9E8000462B9 /* app-keypad.app */,
+				362DEA08251EF9EB000462B9 /* app-keypadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		362DE9F6251EF9E8000462B9 /* app-keypad */ = {
+			isa = PBXGroup;
+			children = (
+				362DEA1A251EFA40000462B9 /* Controller */,
+				362DEA19251EFA31000462B9 /* View */,
+				362DEA17251EFA1F000462B9 /* Model */,
+				362DE9F7251EF9E8000462B9 /* AppDelegate.swift */,
+				362DE9FB251EF9E8000462B9 /* Main.storyboard */,
+				362DE9FE251EF9EB000462B9 /* Assets.xcassets */,
+				362DEA00251EF9EB000462B9 /* LaunchScreen.storyboard */,
+				362DEA03251EF9EB000462B9 /* Info.plist */,
+			);
+			path = "app-keypad";
+			sourceTree = "<group>";
+		};
+		362DEA0B251EF9EB000462B9 /* app-keypadTests */ = {
+			isa = PBXGroup;
+			children = (
+				362DEA0C251EF9EB000462B9 /* app_keypadTests.swift */,
+				362DEA0E251EF9EB000462B9 /* Info.plist */,
+			);
+			path = "app-keypadTests";
+			sourceTree = "<group>";
+		};
+		362DEA17251EFA1F000462B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		362DEA19251EFA31000462B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		362DEA1A251EFA40000462B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				362DE9F9251EF9E8000462B9 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		362DE9F3251EF9E8000462B9 /* app-keypad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362DEA11251EF9EB000462B9 /* Build configuration list for PBXNativeTarget "app-keypad" */;
+			buildPhases = (
+				362DE9F0251EF9E8000462B9 /* Sources */,
+				362DE9F1251EF9E8000462B9 /* Frameworks */,
+				362DE9F2251EF9E8000462B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "app-keypad";
+			productName = "app-keypad";
+			productReference = 362DE9F4251EF9E8000462B9 /* app-keypad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		362DEA07251EF9EB000462B9 /* app-keypadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362DEA14251EF9EB000462B9 /* Build configuration list for PBXNativeTarget "app-keypadTests" */;
+			buildPhases = (
+				362DEA04251EF9EB000462B9 /* Sources */,
+				362DEA05251EF9EB000462B9 /* Frameworks */,
+				362DEA06251EF9EB000462B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				362DEA0A251EF9EB000462B9 /* PBXTargetDependency */,
+			);
+			name = "app-keypadTests";
+			productName = "app-keypadTests";
+			productReference = 362DEA08251EF9EB000462B9 /* app-keypadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		362DE9EC251EF9E8000462B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Julian Mino";
+				TargetAttributes = {
+					362DE9F3251EF9E8000462B9 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					362DEA07251EF9EB000462B9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 362DE9F3251EF9E8000462B9;
+					};
+				};
+			};
+			buildConfigurationList = 362DE9EF251EF9E8000462B9 /* Build configuration list for PBXProject "app-keypad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 362DE9EB251EF9E8000462B9;
+			productRefGroup = 362DE9F5251EF9E8000462B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				362DE9F3251EF9E8000462B9 /* app-keypad */,
+				362DEA07251EF9EB000462B9 /* app-keypadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		362DE9F2251EF9E8000462B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362DEA02251EF9EB000462B9 /* LaunchScreen.storyboard in Resources */,
+				362DE9FF251EF9EB000462B9 /* Assets.xcassets in Resources */,
+				362DE9FD251EF9E8000462B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362DEA06251EF9EB000462B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		362DE9F0251EF9E8000462B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362DE9FA251EF9E8000462B9 /* ViewController.swift in Sources */,
+				362DE9F8251EF9E8000462B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362DEA04251EF9EB000462B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362DEA0D251EF9EB000462B9 /* app_keypadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		362DEA0A251EF9EB000462B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 362DE9F3251EF9E8000462B9 /* app-keypad */;
+			targetProxy = 362DEA09251EF9EB000462B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		362DE9FB251EF9E8000462B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				362DE9FC251EF9E8000462B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		362DEA00251EF9EB000462B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				362DEA01251EF9EB000462B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		362DEA0F251EF9EB000462B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		362DEA10251EF9EB000462B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		362DEA12251EF9EB000462B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "app-keypad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Julian-Min-o.app-keypad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		362DEA13251EF9EB000462B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "app-keypad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Julian-Min-o.app-keypad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		362DEA15251EF9EB000462B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "app-keypadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Julian-Min-o.app-keypadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app-keypad.app/app-keypad";
+			};
+			name = Debug;
+		};
+		362DEA16251EF9EB000462B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "app-keypadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Julian-Min-o.app-keypadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app-keypad.app/app-keypad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		362DE9EF251EF9E8000462B9 /* Build configuration list for PBXProject "app-keypad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362DEA0F251EF9EB000462B9 /* Debug */,
+				362DEA10251EF9EB000462B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		362DEA11251EF9EB000462B9 /* Build configuration list for PBXNativeTarget "app-keypad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362DEA12251EF9EB000462B9 /* Debug */,
+				362DEA13251EF9EB000462B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		362DEA14251EF9EB000462B9 /* Build configuration list for PBXNativeTarget "app-keypadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362DEA15251EF9EB000462B9 /* Debug */,
+				362DEA16251EF9EB000462B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 362DE9EC251EF9E8000462B9 /* Project object */;
+}

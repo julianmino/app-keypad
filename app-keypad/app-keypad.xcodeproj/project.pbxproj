@@ -17,6 +17,7 @@
 		362DEA1E251EFE3C000462B9 /* NumbersHackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA1D251EFE3C000462B9 /* NumbersHackVC.swift */; };
 		362DEA20251EFE7B000462B9 /* StringsHackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA1F251EFE7B000462B9 /* StringsHackVC.swift */; };
 		362DEA22251EFF18000462B9 /* AnimationHackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA21251EFF18000462B9 /* AnimationHackVC.swift */; };
+		362DEA24251F0663000462B9 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA23251F0663000462B9 /* PrimaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		362DEA1D251EFE3C000462B9 /* NumbersHackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersHackVC.swift; sourceTree = "<group>"; };
 		362DEA1F251EFE7B000462B9 /* StringsHackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsHackVC.swift; sourceTree = "<group>"; };
 		362DEA21251EFF18000462B9 /* AnimationHackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHackVC.swift; sourceTree = "<group>"; };
+		362DEA23251F0663000462B9 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		362DEA19251EFA31000462B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				362DEA23251F0663000462B9 /* PrimaryButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				362DEA20251EFE7B000462B9 /* StringsHackVC.swift in Sources */,
 				362DE9FA251EF9E8000462B9 /* MainVC.swift in Sources */,
 				362DEA1E251EFE3C000462B9 /* NumbersHackVC.swift in Sources */,
+				362DEA24251F0663000462B9 /* PrimaryButton.swift in Sources */,
 				362DEA22251EFF18000462B9 /* AnimationHackVC.swift in Sources */,
 				362DE9F8251EF9E8000462B9 /* AppDelegate.swift in Sources */,
 			);

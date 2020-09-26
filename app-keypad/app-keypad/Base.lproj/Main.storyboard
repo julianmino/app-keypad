@@ -77,6 +77,9 @@
                                     <constraint firstAttribute="width" constant="150" id="YgN-9T-GrV"/>
                                 </constraints>
                                 <state key="normal" title="I'm ready!"/>
+                                <connections>
+                                    <action selector="onReadyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z7J-bh-GcE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -103,11 +106,12 @@
                     <connections>
                         <outlet property="btnReady" destination="OZB-nl-jue" id="QUd-Qa-8Fm"/>
                         <outlet property="txtSeconds" destination="jEx-bk-LkH" id="a3X-7e-e6T"/>
+                        <segue destination="jiI-kd-wuQ" kind="show" identifier="colorVCSegue" id="GfP-h2-8ik"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
+            <point key="canvasLocation" x="146" y="125"/>
         </scene>
         <!--Animation HackVC-->
         <scene sceneID="9wW-Hb-fN2">
@@ -142,10 +146,19 @@
         <!--Color HackVC-->
         <scene sceneID="uZ3-Q4-aRk">
             <objects>
-                <viewController id="jiI-kd-wuQ" customClass="ColorHackVC" customModule="app_keypad" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="colorVC" id="jiI-kd-wuQ" customClass="ColorHackVC" customModule="app_keypad" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gEC-If-WNT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Color VC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyn-tq-IXN">
+                                <rect key="frame" x="153" y="90" width="68" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bge-5E-nTA"/>
                     </view>

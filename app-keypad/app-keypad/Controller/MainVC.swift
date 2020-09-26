@@ -9,6 +9,8 @@
 import UIKit
 
 class MainVC: UIViewController {
+    
+    var seconds: Int?
 
     @IBOutlet weak var txtSeconds: UITextField!
     @IBOutlet weak var btnReady: PrimaryButton!
@@ -21,6 +23,8 @@ class MainVC: UIViewController {
 
     @IBAction func txtSecondsHasAValue(_ sender: UITextField) {
         if !txtSeconds.text!.isEmpty {
+            
+            seconds = Int(txtSeconds.text!)
             btnReady.isEnabled = true
              btnReady.enableButton()
         } else {
@@ -31,9 +35,21 @@ class MainVC: UIViewController {
        
     }
     
+    @IBAction func onReadyTapped(_ sender: Any) {
+        performSegue(withIdentifier: "colorVCSegue", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let colorVC = segue.destination as? ColorHackVC {
+            colorVC.seconds = seconds
+        }
+    }
+    
+    
 }
 
 extension UIViewController {
+    
     func hideKeyboardWhenTappedAround() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
         tap.cancelsTouchesInView = false

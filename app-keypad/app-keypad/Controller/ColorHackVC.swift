@@ -10,10 +10,11 @@ import UIKit
 
 class ColorHackVC: UIViewController {
 
+    var seconds: Int!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
 

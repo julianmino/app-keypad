@@ -20,8 +20,9 @@ import UIKit
     }
 
     func customDesign() {
-        layer.backgroundColor = #colorLiteral(red: 0.05843322724, green: 0.08758834749, blue: 0.1923964024, alpha: 1)
-        layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
+        enableButton()
+        
+        layer.borderColor = #colorLiteral(red: 0.41387007, green: 0.4458185844, blue: 0.4938325578, alpha: 1)
         layer.borderWidth = 2.0
         layer.opacity = 1
         layer.cornerRadius = 5.0
@@ -31,6 +32,13 @@ import UIKit
         
         
     }
-    
+
+    func enableButton() {
+        if isEnabled {
+            layer.backgroundColor = #colorLiteral(red: 0.05843322724, green: 0.08758834749, blue: 0.1923964024, alpha: 1)
+        } else {
+            layer.backgroundColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
+        }
+    }
     
 }

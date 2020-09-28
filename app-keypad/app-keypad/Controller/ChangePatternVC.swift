@@ -1,21 +1,19 @@
 //
-//  ColorHackVC.swift
+//  ChangePatternVC.swift
 //  app-keypad
 //
-//  Created by Julian Mino on 26/09/2020.
+//  Created by Julian Mino on 28/09/2020.
 //  Copyright © 2020 Julian Mino. All rights reserved.
 //
 
 import UIKit
 
-class ColorHackVC: UIViewController {
+class ChangePatternVC: UIViewController {
 
-    var seconds: Int!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        // Do any additional setup after loading the view.
     }
     
 

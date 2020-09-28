@@ -18,6 +18,10 @@
 		362DEA20251EFE7B000462B9 /* StringsHackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA1F251EFE7B000462B9 /* StringsHackVC.swift */; };
 		362DEA22251EFF18000462B9 /* AnimationHackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA21251EFF18000462B9 /* AnimationHackVC.swift */; };
 		362DEA24251F0663000462B9 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA23251F0663000462B9 /* PrimaryButton.swift */; };
+		36AB3170252231BF0046985A /* ColorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AB316F252231BF0046985A /* ColorPattern.swift */; };
+		36AB3171252231BF0046985A /* ColorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AB316F252231BF0046985A /* ColorPattern.swift */; };
+		36AB317325223E9B0046985A /* ChangePatternVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AB317225223E9B0046985A /* ChangePatternVC.swift */; };
+		36AB317525223F160046985A /* MainPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AB317425223F160046985A /* MainPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,9 @@
 		362DEA1F251EFE7B000462B9 /* StringsHackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsHackVC.swift; sourceTree = "<group>"; };
 		362DEA21251EFF18000462B9 /* AnimationHackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHackVC.swift; sourceTree = "<group>"; };
 		362DEA23251F0663000462B9 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		36AB316F252231BF0046985A /* ColorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPattern.swift; sourceTree = "<group>"; };
+		36AB317225223E9B0046985A /* ChangePatternVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePatternVC.swift; sourceTree = "<group>"; };
+		36AB317425223F160046985A /* MainPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +118,8 @@
 		362DEA17251EFA1F000462B9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				36AB316F252231BF0046985A /* ColorPattern.swift */,
+				36AB317425223F160046985A /* MainPattern.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -131,6 +140,7 @@
 				362DEA1D251EFE3C000462B9 /* NumbersHackVC.swift */,
 				362DEA1F251EFE7B000462B9 /* StringsHackVC.swift */,
 				362DEA21251EFF18000462B9 /* AnimationHackVC.swift */,
+				36AB317225223E9B0046985A /* ChangePatternVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -241,8 +251,11 @@
 				362DE9FA251EF9E8000462B9 /* MainVC.swift in Sources */,
 				362DEA1E251EFE3C000462B9 /* NumbersHackVC.swift in Sources */,
 				362DEA24251F0663000462B9 /* PrimaryButton.swift in Sources */,
+				36AB3170252231BF0046985A /* ColorPattern.swift in Sources */,
 				362DEA22251EFF18000462B9 /* AnimationHackVC.swift in Sources */,
+				36AB317525223F160046985A /* MainPattern.swift in Sources */,
 				362DE9F8251EF9E8000462B9 /* AppDelegate.swift in Sources */,
+				36AB317325223E9B0046985A /* ChangePatternVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				362DEA0D251EF9EB000462B9 /* app_keypadTests.swift in Sources */,
+				36AB3171252231BF0046985A /* ColorPattern.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

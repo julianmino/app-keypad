@@ -3,25 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3192DA46694DC1263F2E84EA /* Pods_app_keypad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6542C2EEB5D094BA918CCFC /* Pods_app_keypad.framework */; };
 		362DE9F8251EF9E8000462B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DE9F7251EF9E8000462B9 /* AppDelegate.swift */; };
 		362DE9FA251EF9E8000462B9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DE9F9251EF9E8000462B9 /* MainVC.swift */; };
 		362DE9FD251EF9E8000462B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362DE9FB251EF9E8000462B9 /* Main.storyboard */; };
 		362DE9FF251EF9EB000462B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362DE9FE251EF9EB000462B9 /* Assets.xcassets */; };
 		362DEA02251EF9EB000462B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362DEA00251EF9EB000462B9 /* LaunchScreen.storyboard */; };
 		362DEA0D251EF9EB000462B9 /* app_keypadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA0C251EF9EB000462B9 /* app_keypadTests.swift */; };
-		362DEA1C251EFD93000462B9 /* ColorHackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA1B251EFD93000462B9 /* ColorHackVC.swift */; };
-		362DEA1E251EFE3C000462B9 /* NumbersHackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA1D251EFE3C000462B9 /* NumbersHackVC.swift */; };
-		362DEA20251EFE7B000462B9 /* StringsHackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA1F251EFE7B000462B9 /* StringsHackVC.swift */; };
-		362DEA22251EFF18000462B9 /* AnimationHackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA21251EFF18000462B9 /* AnimationHackVC.swift */; };
+		362DEA1C251EFD93000462B9 /* ColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA1B251EFD93000462B9 /* ColorVC.swift */; };
+		362DEA1E251EFE3C000462B9 /* NumbersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA1D251EFE3C000462B9 /* NumbersVC.swift */; };
+		362DEA20251EFE7B000462B9 /* StringsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA1F251EFE7B000462B9 /* StringsVC.swift */; };
+		362DEA22251EFF18000462B9 /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA21251EFF18000462B9 /* AnimationVC.swift */; };
 		362DEA24251F0663000462B9 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362DEA23251F0663000462B9 /* PrimaryButton.swift */; };
 		36AB3170252231BF0046985A /* ColorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AB316F252231BF0046985A /* ColorPattern.swift */; };
 		36AB3171252231BF0046985A /* ColorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AB316F252231BF0046985A /* ColorPattern.swift */; };
 		36AB317325223E9B0046985A /* ChangePatternVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AB317225223E9B0046985A /* ChangePatternVC.swift */; };
 		36AB317525223F160046985A /* MainPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AB317425223F160046985A /* MainPattern.swift */; };
+		847B866F256B67F700DD048D /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B866E256B67F700DD048D /* MainPresenter.swift */; };
+		847B8670256B67F700DD048D /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B866E256B67F700DD048D /* MainPresenter.swift */; };
+		847B8676256B680900DD048D /* ColorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B8675256B680900DD048D /* ColorPresenter.swift */; };
+		847B8677256B680900DD048D /* ColorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B8675256B680900DD048D /* ColorPresenter.swift */; };
+		847B867B256B681D00DD048D /* NumbersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B867A256B681D00DD048D /* NumbersPresenter.swift */; };
+		847B867C256B681D00DD048D /* NumbersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B867A256B681D00DD048D /* NumbersPresenter.swift */; };
+		847B8684256B68A200DD048D /* StringsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B8683256B68A200DD048D /* StringsPresenter.swift */; };
+		847B8685256B68A200DD048D /* StringsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B8683256B68A200DD048D /* StringsPresenter.swift */; };
+		847B868D256B68BA00DD048D /* AnimationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B868C256B68BA00DD048D /* AnimationPresenter.swift */; };
+		847B868E256B68BA00DD048D /* AnimationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B868C256B68BA00DD048D /* AnimationPresenter.swift */; };
+		847B8692256B68CB00DD048D /* ChangePatternPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B8691256B68CB00DD048D /* ChangePatternPresenter.swift */; };
+		847B8693256B68CB00DD048D /* ChangePatternPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B8691256B68CB00DD048D /* ChangePatternPresenter.swift */; };
+		847B8697256B690800DD048D /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B8696256B690800DD048D /* BasePresenter.swift */; };
+		847B8698256B690800DD048D /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B8696256B690800DD048D /* BasePresenter.swift */; };
+		847B869C256B691C00DD048D /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B869B256B691C00DD048D /* BaseManager.swift */; };
+		847B869D256B691C00DD048D /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B869B256B691C00DD048D /* BaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +62,25 @@
 		362DEA08251EF9EB000462B9 /* app-keypadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app-keypadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		362DEA0C251EF9EB000462B9 /* app_keypadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_keypadTests.swift; sourceTree = "<group>"; };
 		362DEA0E251EF9EB000462B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		362DEA1B251EFD93000462B9 /* ColorHackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHackVC.swift; sourceTree = "<group>"; };
-		362DEA1D251EFE3C000462B9 /* NumbersHackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersHackVC.swift; sourceTree = "<group>"; };
-		362DEA1F251EFE7B000462B9 /* StringsHackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsHackVC.swift; sourceTree = "<group>"; };
-		362DEA21251EFF18000462B9 /* AnimationHackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHackVC.swift; sourceTree = "<group>"; };
+		362DEA1B251EFD93000462B9 /* ColorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorVC.swift; sourceTree = "<group>"; };
+		362DEA1D251EFE3C000462B9 /* NumbersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersVC.swift; sourceTree = "<group>"; };
+		362DEA1F251EFE7B000462B9 /* StringsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsVC.swift; sourceTree = "<group>"; };
+		362DEA21251EFF18000462B9 /* AnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
 		362DEA23251F0663000462B9 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		36AB316F252231BF0046985A /* ColorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPattern.swift; sourceTree = "<group>"; };
 		36AB317225223E9B0046985A /* ChangePatternVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePatternVC.swift; sourceTree = "<group>"; };
 		36AB317425223F160046985A /* MainPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPattern.swift; sourceTree = "<group>"; };
+		488DB5CCF17177523A4B980F /* Pods-app-keypad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-keypad.release.xcconfig"; path = "Target Support Files/Pods-app-keypad/Pods-app-keypad.release.xcconfig"; sourceTree = "<group>"; };
+		847B866E256B67F700DD048D /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		847B8675256B680900DD048D /* ColorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPresenter.swift; sourceTree = "<group>"; };
+		847B867A256B681D00DD048D /* NumbersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersPresenter.swift; sourceTree = "<group>"; };
+		847B8683256B68A200DD048D /* StringsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsPresenter.swift; sourceTree = "<group>"; };
+		847B868C256B68BA00DD048D /* AnimationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPresenter.swift; sourceTree = "<group>"; };
+		847B8691256B68CB00DD048D /* ChangePatternPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePatternPresenter.swift; sourceTree = "<group>"; };
+		847B8696256B690800DD048D /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		847B869B256B691C00DD048D /* BaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseManager.swift; sourceTree = "<group>"; };
+		E6542C2EEB5D094BA918CCFC /* Pods_app_keypad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_app_keypad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EB7EF2EF1B0595517BBF52 /* Pods-app-keypad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-keypad.debug.xcconfig"; path = "Target Support Files/Pods-app-keypad/Pods-app-keypad.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3192DA46694DC1263F2E84EA /* Pods_app_keypad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +108,8 @@
 				362DE9F6251EF9E8000462B9 /* app-keypad */,
 				362DEA0B251EF9EB000462B9 /* app-keypadTests */,
 				362DE9F5251EF9E8000462B9 /* Products */,
+				5082BDE8C49ACB8A60AB702C /* Pods */,
+				619E1DEF9C97B901294B8A8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +125,9 @@
 		362DE9F6251EF9E8000462B9 /* app-keypad */ = {
 			isa = PBXGroup;
 			children = (
-				362DEA1A251EFA40000462B9 /* Controller */,
-				362DEA19251EFA31000462B9 /* View */,
+				847B8662256B672600DD048D /* UI */,
+				847B866A256B676E00DD048D /* Presenters */,
+				847B866B256B677D00DD048D /* Networking */,
 				362DEA17251EFA1F000462B9 /* Model */,
 				362DE9F7251EF9E8000462B9 /* AppDelegate.swift */,
 				362DE9FB251EF9E8000462B9 /* Main.storyboard */,
@@ -136,13 +168,77 @@
 			isa = PBXGroup;
 			children = (
 				362DE9F9251EF9E8000462B9 /* MainVC.swift */,
-				362DEA1B251EFD93000462B9 /* ColorHackVC.swift */,
-				362DEA1D251EFE3C000462B9 /* NumbersHackVC.swift */,
-				362DEA1F251EFE7B000462B9 /* StringsHackVC.swift */,
-				362DEA21251EFF18000462B9 /* AnimationHackVC.swift */,
+				362DEA1B251EFD93000462B9 /* ColorVC.swift */,
+				362DEA1D251EFE3C000462B9 /* NumbersVC.swift */,
+				362DEA1F251EFE7B000462B9 /* StringsVC.swift */,
+				362DEA21251EFF18000462B9 /* AnimationVC.swift */,
 				36AB317225223E9B0046985A /* ChangePatternVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		5082BDE8C49ACB8A60AB702C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6EB7EF2EF1B0595517BBF52 /* Pods-app-keypad.debug.xcconfig */,
+				488DB5CCF17177523A4B980F /* Pods-app-keypad.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		619E1DEF9C97B901294B8A8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6542C2EEB5D094BA918CCFC /* Pods_app_keypad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		847B8662256B672600DD048D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				362DEA1A251EFA40000462B9 /* Controller */,
+				362DEA19251EFA31000462B9 /* View */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		847B866A256B676E00DD048D /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				847B8696256B690800DD048D /* BasePresenter.swift */,
+				847B866E256B67F700DD048D /* MainPresenter.swift */,
+				847B8675256B680900DD048D /* ColorPresenter.swift */,
+				847B867A256B681D00DD048D /* NumbersPresenter.swift */,
+				847B8683256B68A200DD048D /* StringsPresenter.swift */,
+				847B868C256B68BA00DD048D /* AnimationPresenter.swift */,
+				847B8691256B68CB00DD048D /* ChangePatternPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		847B866B256B677D00DD048D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				847B866D256B679000DD048D /* Managers */,
+				847B866C256B678600DD048D /* Services */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		847B866C256B678600DD048D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		847B866D256B679000DD048D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				847B869B256B691C00DD048D /* BaseManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 362DEA11251EF9EB000462B9 /* Build configuration list for PBXNativeTarget "app-keypad" */;
 			buildPhases = (
+				9AC99855320C4CCA6023DD9D /* [CP] Check Pods Manifest.lock */,
 				362DE9F0251EF9E8000462B9 /* Sources */,
 				362DE9F1251EF9E8000462B9 /* Frameworks */,
 				362DE9F2251EF9E8000462B9 /* Resources */,
+				1901012F1FA13C2FD0205B96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,19 +339,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1901012F1FA13C2FD0205B96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-app-keypad/Pods-app-keypad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-app-keypad/Pods-app-keypad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-app-keypad/Pods-app-keypad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AC99855320C4CCA6023DD9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-app-keypad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		362DE9F0251EF9E8000462B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				362DEA1C251EFD93000462B9 /* ColorHackVC.swift in Sources */,
-				362DEA20251EFE7B000462B9 /* StringsHackVC.swift in Sources */,
+				362DEA1C251EFD93000462B9 /* ColorVC.swift in Sources */,
+				362DEA20251EFE7B000462B9 /* StringsVC.swift in Sources */,
 				362DE9FA251EF9E8000462B9 /* MainVC.swift in Sources */,
-				362DEA1E251EFE3C000462B9 /* NumbersHackVC.swift in Sources */,
+				847B8692256B68CB00DD048D /* ChangePatternPresenter.swift in Sources */,
+				847B868D256B68BA00DD048D /* AnimationPresenter.swift in Sources */,
+				362DEA1E251EFE3C000462B9 /* NumbersVC.swift in Sources */,
+				847B869C256B691C00DD048D /* BaseManager.swift in Sources */,
 				362DEA24251F0663000462B9 /* PrimaryButton.swift in Sources */,
+				847B8676256B680900DD048D /* ColorPresenter.swift in Sources */,
 				36AB3170252231BF0046985A /* ColorPattern.swift in Sources */,
-				362DEA22251EFF18000462B9 /* AnimationHackVC.swift in Sources */,
+				362DEA22251EFF18000462B9 /* AnimationVC.swift in Sources */,
 				36AB317525223F160046985A /* MainPattern.swift in Sources */,
+				847B8684256B68A200DD048D /* StringsPresenter.swift in Sources */,
+				847B866F256B67F700DD048D /* MainPresenter.swift in Sources */,
+				847B8697256B690800DD048D /* BasePresenter.swift in Sources */,
+				847B867B256B681D00DD048D /* NumbersPresenter.swift in Sources */,
 				362DE9F8251EF9E8000462B9 /* AppDelegate.swift in Sources */,
 				36AB317325223E9B0046985A /* ChangePatternVC.swift in Sources */,
 			);
@@ -263,7 +411,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847B869D256B691C00DD048D /* BaseManager.swift in Sources */,
 				362DEA0D251EF9EB000462B9 /* app_keypadTests.swift in Sources */,
+				847B8698256B690800DD048D /* BasePresenter.swift in Sources */,
+				847B868E256B68BA00DD048D /* AnimationPresenter.swift in Sources */,
+				847B8685256B68A200DD048D /* StringsPresenter.swift in Sources */,
+				847B8693256B68CB00DD048D /* ChangePatternPresenter.swift in Sources */,
+				847B867C256B681D00DD048D /* NumbersPresenter.swift in Sources */,
+				847B8677256B680900DD048D /* ColorPresenter.swift in Sources */,
+				847B8670256B67F700DD048D /* MainPresenter.swift in Sources */,
 				36AB3171252231BF0046985A /* ColorPattern.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +572,7 @@
 		};
 		362DEA12251EF9EB000462B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6EB7EF2EF1B0595517BBF52 /* Pods-app-keypad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -433,6 +590,7 @@
 		};
 		362DEA13251EF9EB000462B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488DB5CCF17177523A4B980F /* Pods-app-keypad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

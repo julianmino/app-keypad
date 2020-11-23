@@ -1,5 +1,5 @@
 //
-//  AnimationHackVC.swift
+//  NumbersHackVC.swift
 //  app-keypad
 //
 //  Created by Julian Mino on 26/09/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AnimationHackVC: UIViewController {
+class NumbersVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

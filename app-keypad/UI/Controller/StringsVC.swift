@@ -1,5 +1,5 @@
 //
-//  ColorHackVC.swift
+//  StringsHackVC.swift
 //  app-keypad
 //
 //  Created by Julian Mino on 26/09/2020.
@@ -8,14 +8,12 @@
 
 import UIKit
 
-class ColorHackVC: UIViewController {
+class StringsVC: UIViewController {
 
-    var seconds: Int!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        // Do any additional setup after loading the view.
     }
     
 

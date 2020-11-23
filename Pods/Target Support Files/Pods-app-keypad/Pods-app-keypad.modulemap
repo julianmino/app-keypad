@@ -1,0 +1,6 @@
+framework module Pods_app_keypad {
+  umbrella header "Pods-app-keypad-umbrella.h"
+
+  export *
+  module * { export * }
+}

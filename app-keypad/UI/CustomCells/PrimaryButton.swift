@@ -20,7 +20,7 @@ import UIKit
     }
 
     func customDesign() {
-        enableButton()
+        enableButton(false)
         
         layer.borderColor = #colorLiteral(red: 0.41387007, green: 0.4458185844, blue: 0.4938325578, alpha: 1)
         layer.borderWidth = 2.0
@@ -33,8 +33,8 @@ import UIKit
         
     }
 
-    func enableButton() {
-        if isEnabled {
+    func enableButton(_ bool: Bool) {
+        if bool {
             layer.backgroundColor = #colorLiteral(red: 0.05843322724, green: 0.08758834749, blue: 0.1923964024, alpha: 1)
         } else {
             layer.backgroundColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)

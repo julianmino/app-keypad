@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+protocol ChangePatternPresenterDelegate: BasePresenterDelegate {
+    
+}
+
+class ChangePatternPresenter<T: ChangePatternPresenterDelegate>: BasePresenter<T> {
+    
+}

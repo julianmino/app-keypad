@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+protocol AnimationPresenterDelegate: BasePresenterDelegate {
+    
+}
+
+class AnimationPresenter<T: AnimationPresenterDelegate>: BasePresenter<T> {
+    
+}

@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+protocol NumbersPresenterDelegate: BasePresenterDelegate {
+    
+}
+
+class NumbersPresenter<T: NumbersPresenterDelegate>: BasePresenter<T> {
+    
+}

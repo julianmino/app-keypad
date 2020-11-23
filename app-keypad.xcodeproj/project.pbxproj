@@ -130,7 +130,6 @@
 				847B866B256B677D00DD048D /* Networking */,
 				362DEA17251EFA1F000462B9 /* Model */,
 				362DE9F7251EF9E8000462B9 /* AppDelegate.swift */,
-				362DE9FB251EF9E8000462B9 /* Main.storyboard */,
 				362DE9FE251EF9EB000462B9 /* Assets.xcassets */,
 				362DEA00251EF9EB000462B9 /* LaunchScreen.storyboard */,
 				362DEA03251EF9EB000462B9 /* Info.plist */,
@@ -156,12 +155,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		362DEA19251EFA31000462B9 /* View */ = {
+		362DEA19251EFA31000462B9 /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
 				362DEA23251F0663000462B9 /* PrimaryButton.swift */,
 			);
-			path = View;
+			path = CustomCells;
 			sourceTree = "<group>";
 		};
 		362DEA1A251EFA40000462B9 /* Controller */ = {
@@ -197,8 +196,9 @@
 		847B8662256B672600DD048D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				362DE9FB251EF9E8000462B9 /* Main.storyboard */,
 				362DEA1A251EFA40000462B9 /* Controller */,
-				362DEA19251EFA31000462B9 /* View */,
+				362DEA19251EFA31000462B9 /* CustomCells */,
 			);
 			path = UI;
 			sourceTree = "<group>";

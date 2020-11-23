@@ -8,45 +8,60 @@
 
 import UIKit
 
-class MainVC: UIViewController {
+class MainVC: UIViewController, UITextFieldDelegate{
     
-    var seconds: Int?
+    var seconds: Int = 0
 
     @IBOutlet weak var txtSeconds: UITextField!
     @IBOutlet weak var btnReady: PrimaryButton!
+    private var presenter = MainPresenter<MainVC>()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        txtSeconds.delegate = self
         hideKeyboardWhenTappedAround()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func txtSecondsHasAValue(_ sender: UITextField) {
-        if !txtSeconds.text!.isEmpty {
-            
-            seconds = Int(txtSeconds.text!)
-            btnReady.isEnabled = true
-             btnReady.enableButton()
-        } else {
-            btnReady.isEnabled = false
-            print("Anya")
-            btnReady.enableButton()
-        }
-       
-    }
-    
     @IBAction func onReadyTapped(_ sender: Any) {
         performSegue(withIdentifier: "colorVCSegue", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let colorVC = segue.destination as? ColorHackVC {
+        if let colorVC = segue.destination as? ColorVC {
             colorVC.seconds = seconds
         }
     }
     
+//MARK: - TextFieldDelegate
     
+    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
+        if let text = txtSeconds.text {
+            seconds = Int(text) ?? 0
+            btnReady.enableButton(true)
+        } else {
+            btnReady.enableButton(false)
+        }
+        return true
+    }
 }
+
+//MARK: - PresenterDelegate
+
+extension MainVC: MainPresenterDelegate {
+    func showLoadingView() {
+        
+    }
+    
+    func hideLoadingView() {
+        
+    }
+    
+    func onError(_ message: String) {
+        
+    }
+}
+
+//MARK: - HideKeyboard Extension
 
 extension UIViewController {
     
@@ -60,4 +75,3 @@ extension UIViewController {
         view.endEditing(true)
     }
 }
-

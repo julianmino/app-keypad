@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+protocol ColorPresenterDelegate: BasePresenterDelegate {
+    
+}
+
+class ColorPresenter<T: ColorPresenterDelegate>: BasePresenter<T> {
+    
+}
